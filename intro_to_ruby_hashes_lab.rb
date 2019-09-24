@@ -24,10 +24,9 @@ def monopoly_with_third_tier
   base_hash = {
 	  :railroads => {
 	    :pieces => 4, 
-	    :rent_in_dollars => {
-	      rent_key_one: "one_piece_owned", rent_key_two: "two_piece_owned", rent_key_three: "three_piece_owned", rent_key_four: "four_piece_owned"}, 
-	      :names => {name_key_1: "names", name_key_2: "names2", name_key_3: "names3", name_key_4: "names4"},
-	      :one_piece_owned => {fee: "25"}
+	    :rent_in_dollars => {rent_key_one: "one_piece_owned", rent_key_two: "two_piece_owned", rent_key_three: "three_piece_owned", rent_key_four: "four_piece_owned"}, 
+	    :names => {name_key_1: "names", name_key_2: "names2", name_key_3: "names3", name_key_4: "names4"},
+	    :one_piece_owned => {fee: "25"}
 	  }
 	}
 end
